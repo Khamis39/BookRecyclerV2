@@ -7,14 +7,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="title">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">#000000</item>
-    </style>
 
-    <style name="Category">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">#000000</item>
-        </style>
+
+    <!-- to make the background of optionMenu white-->
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+    </style>
 
 </resources>
